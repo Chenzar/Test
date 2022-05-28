@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        body{
+            background-color:aqua;
+            color: blue;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+          /*let x=Math.floor(Math.random() * 101);
+          let y=Math.floor(Math.random() * 101);
+          document.write("Згенерувалося два числа: "+x+" "+y);
+          let min,max;
+          if(x>y){
+              max=x;
+              min=y;
+          }else if(y>x){
+              max=y;
+              min=x;
+          }else{
+              document.write("Числа рівні"+"<br>")
+          }
+          document.write("Мінімальне число діапазону: "+min+"<br>"+"Максимальне число діапазону: "+max+"<br>");
+          document.write("Число в заданому діапазоні:"+"<br>");
+          let count=0;
+          let sum=0;
+          for(let i=min; i=max;i++){
+            document.write(i+" ");
+            count++;
+            sum=sum+i;
+          }
+          document.write("<br>"+"В заданому діапазоні чисел: "+count+"<br>");
+          document.write("СУМА ЧИСЕЛ В ДІАПАЗОНІ ДОРІВНЮЄ: " +sum)*/
+          let markt = +prompt('Яка ваша оцінка?', '');
+          if(markt==1||markt==2||markt==3){
+              document.write("Ваша оцінка дуже погана")
+          }
+          if(markt==4||markt==5||markt==6){
+              document.write("Ваша оцінка не є задовільною")
+          }
+          if(markt==7||markt==8||markt==9){
+              document.write("Ваша оцінка задовільна")
+          }
+          if(markt==10||markt==11||markt==12){
+              document.write("Ваша оцінка відмінна")
+          }
+          else{
+              document.write("Некоретне введення оцінок")
+          }
+          
+    </script>
+       
+</body>
+</html>

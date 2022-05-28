@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web - design</title>
+    <style type"text/css">
+        body{
+            background-color: yellowgreen;
+            color: blue;
+            font-size: 40px;
+        }
+        p{
+            color: yellowgreen;
+            background-color: blue;
+            font-size: 50px;
+            font-family: cursive;
+            text-align: center;
+        }
+        img{
+            width: 500px;
+            border-radius: 50%;
+            box-shadow: 10px 10px 10px grey;
+            display: block;
+            margin: auto;
+
+        }
+    </style>
+</head>
+<body>
+    <p>Ми вивчаємо веб дизайн</p>
+    <img src="webdesign.jpg" width="500px" alt="web design" title="wed design">
+    <script type="text/javascript">
+        let num1=+prompt(" Яка кількість учнів у класі:", "");
+        let num2=+prompt("Яка кількість стільців  у класі:", "");
+        document.write("Кількість учнів "+num1+"<br>")
+        document.write("Кількість стільців "+num2+"<br>")
+        if(num1>num2){
+            document.write("Потрібно", +(num1-num2)+ "стільців"+"<br>")
+        }else if(num2>num1){
+            document.write("Зайві", +(num2-num1)+  'стільців'+"<br>")
+            
+        }else if(num2==num1){
+            document.write("ВСЬОГО вистачає "+"<br>")
+            
+        }else{
+            document.write("Ви ввели не числа!")
+        }
+            
+    </script>
+</body>
+</html>
